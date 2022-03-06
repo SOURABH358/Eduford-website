@@ -1,6 +1,6 @@
 # Eduford-website
 
-Multipage Website using pure HTML and CSS.  
+Multipage Website Responsive website using HTML and CSS.  
 The Website was made by [Easy Tutorials](https://www.youtube.com/c/EasyTutorialsVideo) in one of their youtube videos.
 
 ## Built With 
@@ -11,4 +11,11 @@ The Website was made by [Easy Tutorials](https://www.youtube.com/c/EasyTutorials
   - tutorial - [video](https://www.youtube.com/watch?v=oYRda7UtuhA&t)
 
 ## Screenshot
-![](./screenshot.png)
+![](./screenshot-desktop.png)
+<p align="center" width="100%">
+    <img width="50%" src="./screenshot-mobile.png">
+</p>  
+
+**Author**  
+
+Sourabh Yadav ❤
