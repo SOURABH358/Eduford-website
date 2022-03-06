@@ -7,7 +7,7 @@ The Website was made by [Easy Tutorials](https://www.youtube.com/c/EasyTutorials
   - HTML
   - CSS
 ## Links
-  - live working - [site](https://sourabh358.github.io/Eduford-website/front-page.html)
+  - live working - [site](https://sourabh358.github.io/Eduford-website/front_page.html)
   - tutorial - [video](https://www.youtube.com/watch?v=oYRda7UtuhA&t)
 
 ## Screenshot
