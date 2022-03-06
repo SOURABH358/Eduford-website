@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type = "text/CSS" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>University website</title>
+    </head>
+    <body>
+        <section class = "sub-header">
+            <header class = "navbar">
+                <a href = "./front_page.html"><img class = "logo" src = "./images/logo.png" alt = "logo"></a>>
+                <div id = "navbars">
+                   
+                    <i class = "fa fa-close" onclick = "closeMenu()"></i>
+                    <ul>
+                        <li><a href = "./front_page.html">HOME</a></li>
+                        <li><a href = "./about_us.html">ABOUT</a></li>
+                        <li><a href = "./courses.html">COURSE</a></li>
+                        <li><a href = "./blog.html">BLOG</a></li>
+                        <li><a href = "./contact_us.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class = "fa fa-bars" id = "bars" onclick="showMenu()"></i>
+            </header>
+            <div>
+                <h1>CONTACT US</h1>
+            </div>
+        </section>
+
+<!--contact us-->
+        <section class = "location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28024.19836853235!2d77.04951792923575!3d28.59903292972406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b2fdfcd7a2b%3A0x9dd6e945d0ea6ed2!2sSector%202%20Dwarka%2C%20Dwarka%2C%20New%20Delhi%2C%20Delhi%20110075!5e0!3m2!1sen!2sin!4v1639809618292!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class = "row">
+                <div class = "info">
+                    <div class = "address">
+                        <i class="fa fa-home"></i>
+                        <div>
+                            <h3>Xyz Road, Abc Building</h3>
+                            <p>Dwarka, New Delhi, IN</p>
+                        </div>
+                    </div>
+                    <div class = "address">
+                        <i class="fa fa-phone"></i>
+                        <div>
+                            <h3>+1 0123456789</h3>
+                            <p>Monday to Saturday 10 AM to 6 PM</p>
+                        </div>
+                    </div>
+                    <div class = "address">
+                        <i class="fa fa-envelope"></i>
+                        <div>
+                            <h3>info@sourabhweb.com</h3>
+                            <p>Email us your query</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "details-box">
+                    <form action = "form_handler.php" method="post">
+                        <input type = "text" name = "name" placeholder="Enter your name">
+                        <input type = "email" name = "email" placeholder="Enter your email">
+                        <input type = "text" name = "subject" placeholder="Subject">
+                        <textarea rows="5" name = "message" placeholder="Message"></textarea>
+                        <button type = "submit">Send Message</button>
+                    </form>
+    
+                </div>
+            </div>
+        </section>
+        
+<!--about us-->
+        <section class = "about-us">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe ea similique dolorum minima velit nam, molestiae odit vero distinctio!</p>
+            <i class = "fa fa-facebook"></i>
+            <i class = "fa fa-instagram"></i>
+            <i class = "fa fa-twitter"></i>
+            <i class = "fa fa-linkedin"></i>
+            <p>Made with <i class = "fa fa-heart-o"></i> by Sourabh Yadav</p>
+        </section>
+        <script>
+            var click = document.getElementById("navbars");
+            
+            function closeMenu(){
+                click.style.right="-150px";
+            }
+            function showMenu(){
+                click.style.right="0px";
+            }
+        </script>
+    </body>
+</html>

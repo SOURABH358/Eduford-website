@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type = "text/CSS" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>University website</title>
+    </head>
+    <body>
+        <section class = "sub-header">
+            <header class = "navbar">
+                <a href = "./front_page.html"><img class = "logo" src = "./images/logo.png" alt = "logo"></a>>
+                <div id = "navbars">
+                   
+                    <i class = "fa fa-close" onclick = "closeMenu()"></i>
+                    <ul>
+                        <li><a href = "./front_page.html">HOME</a></li>
+                        <li><a href = "./about_us.html">ABOUT</a></li>
+                        <li><a href = "./courses.html">COURSE</a></li>
+                        <li><a href = "./blog.html">BLOG</a></li>
+                        <li><a href = "./contact_us.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class = "fa fa-bars" id = "bars" onclick="showMenu()"></i>
+            </header>
+            <div>
+                <h1>ABOUT US</h1>
+            </div>
+        </section>
+
+<!--about us content-->
+        <section class = "about-us-content">
+            <div class = "row">
+                <div class = "col">
+                    <h1>We are World's Largest University</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet culpa ipsa facilis animi ex, eaque incidunt cumque sapiente aperiam officia blanditiis ducimus aliquid facere in perferendis obcaecati laborum iusto fugiat voluptas officiis non fuga mollitia? Vero facere dolorem quis unde, vel ut porro reprehenderit at cumque, accusantium fugit voluptatum totam.</p>
+                    <a href = "#">EXPLORE NOW</a>
+                </div>
+                <div class = "col">
+                    <img src = "./images/about.jpg" alt = "about">
+                </div>
+            </div>
+        </section>
+<!--about us-->
+        <section class = "about-us">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe ea similique dolorum minima velit nam, molestiae odit vero distinctio!</p>
+            <i class = "fa fa-facebook"></i>
+            <i class = "fa fa-instagram"></i>
+            <i class = "fa fa-twitter"></i>
+            <i class = "fa fa-linkedin"></i>
+            <p>Made with <i class = "fa fa-heart-o"></i> by Sourabh Yadav</p>
+        </section>
+        <script>
+            var click = document.getElementById("navbars");
+            
+            function closeMenu(){
+                click.style.right="-150px";
+            }
+            function showMenu(){
+                click.style.right="0px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type = "text/CSS" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>University website</title>
+    </head>
+    <body>
+        <section class = "sub-header">
+            <header class = "navbar">
+                <a href = "./front_page.html"><img class = "logo" src = "./images/logo.png"></a>>
+                <div id = "navbars">
+                   
+                    <i class = "fa fa-close" onclick = "closeMenu()"></i>
+                    <ul>
+                        <li><a href = "./front_page.html">HOME</a></li>
+                        <li><a href = "./about_us.html">ABOUT</a></li>
+                        <li><a href = "./courses.html">COURSE</a></li>
+                        <li><a href = "./blog.html">BLOG</a></li>
+                        <li><a href = "./contact_us.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class = "fa fa-bars" id = "bars" onclick="showMenu()"></i>
+            </header>
+            <div>
+                <h1>OUR COURSES</h1>
+            </div>
+        </section>
+
+<!--courses-->
+        <section class = "course" id = course>
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, quo?</p>
+            <div class = "div-1">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod amet hic voluptatem vero deserunt sed similique ipsum dicta, voluptate laboriosam alias aperiam quia quam modi reiciendis incidunt nam nisi.</p>
+            </div>
+            <div class = "div-2">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod amet hic voluptatem vero deserunt sed similique ipsum dicta, voluptate laboriosam alias aperiam quia quam modi reiciendis incidunt nam nisi.</p>
+            </div>
+            <div class = "div-3">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quod amet hic voluptatem vero deserunt sed similique ipsum dicta, voluptate laboriosam alias aperiam quia quam modi reiciendis incidunt nam nisi.</p>
+            </div>
+        </section>
+<!--facilities-->
+        <section class = "facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, quo?</p>
+            <div class = "img"><img src = "./images/library.png" alt = "library">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, velit.</p>
+            </div>
+            <div class = "img"><img src = "./images/basketball.png" alt = "basketball">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, velit.</p>
+            </div>
+            <div class = "img"><img src = "./images/cafeteria.png" alt = "cafeteria">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, velit.</p>
+            </div>
+
+        </section>
+<!--about us-->
+        <section class = "about-us">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe ea similique dolorum minima velit nam, molestiae odit vero distinctio!</p>
+            <i class = "fa fa-facebook"></i>
+            <i class = "fa fa-instagram"></i>
+            <i class = "fa fa-twitter"></i>
+            <i class = "fa fa-linkedin"></i>
+            <p>Made with <i class = "fa fa-heart-o"></i> by Sourabh Yadav</p>
+        </section>
+        <script>
+            var click = document.getElementById("navbars");
+            
+            function closeMenu(){
+                click.style.right="-150px";
+            }
+            function showMenu(){
+                click.style.right="0px";
+            }
+        </script>
+    </body>
+</html>
